@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import FileUpload from './assets/components/FileUpload';
-import Resume from './assets/components/Resume';
+import FileUpload from './components/FileUpload';
+import Resume from './components/Resume';
 import './App.css';
-import UploadCSV from './assets/components/UploadCSV';
+import UploadCSV from './components/UploadCSV';
 
 const App = () => {
   const [resumeData, setResumeData] = useState([]);

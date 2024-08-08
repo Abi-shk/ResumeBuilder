@@ -1,5 +1,5 @@
 import React from 'react';
-import { csvToJson } from '../../utils';
+import { csvToJson } from '../utils';
 
 const FileUpload = ({ setResumeData }) => {
   const handleFileUpload = async (event) => {
