@@ -1,7 +1,6 @@
 import React from 'react';
 import html2pdf from 'html2pdf.js';
-import { FaLink } from "react-icons/fa6";
-import { BiLogoGmail } from "react-icons/bi";
+
 
 const Resume = ({ data }) => {
   console.log('Resume Component Data:', data);
