@@ -1,6 +1,7 @@
 // Header.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import techmaghi from '../assets/techmaghi.png';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ const Header = () => {
   return (
     <header className="bg-gray-200 p-4 flex justify-center items-center">
       <img
-        src="./src/assets/techmaghi.png" // Replace with the path to your PNG image
+        src={techmaghi} // Replace with the path to your PNG image
         alt="Techmaghi Logo"
         className="w-52 h-auto cursor-pointer" // Add cursor-pointer to indicate it's clickable
         onClick={handleClick}
