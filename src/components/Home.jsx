@@ -1,10 +1,10 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Header from './Header';
-import template1 from '../assets/template1.PNG';
-import template2 from '../assets/template2.PNG';
-import template3 from '../assets/template3.PNG';
-import template4 from '../assets/template4.PNG';
+import template1 from '../assets/template1.png';
+import template2 from '../assets/template2.png';
+import template3 from '../assets/template3.png';
+import template4 from '../assets/template4.png';
 
 function Home() {
   const navigate = useNavigate();
