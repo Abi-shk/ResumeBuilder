@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* CSS */
-.page-break {
-  page-break-before: auto;
-  page-break-inside: avoid;
-  page-break-after: auto;
-}
+
+
 
 
